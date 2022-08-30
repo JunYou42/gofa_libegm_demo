@@ -1,6 +1,9 @@
 # gofa_libegm_samples
 
-this ROS package provides some examples of controlling the collaborative robot GoFa based on libegm.
+This ROS package provides some examples of controlling GoFa via Externally Guided Motion (EGM). The codes are build on the basis of [this issue](https://github.com/ros-industrial/abb_libegm/issues/18). The library abb_libegm can be found [here](https://github.com/ros-industrial/abb_libegm).
+
+
+
 
 ## Getting started
 
