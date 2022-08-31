@@ -25,10 +25,12 @@ and built with [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/inde
 
 ### 1. Robotstuidio and ABB controller setup
 a. access the controller in Robotstudio
+![Robotstudio](image.jpg)
 b. change RAPID file
 - for joint space, use main_t1() as the main function
 ![main_t1](image.jpg)
 - for cartesain space, switch to main_t2()  
+ ![main_t2](image.jpg)
  
 ### 2. ROS package usage
 a. Clone the repoistary to your local computer and build the package
