@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>abb_libegm_samples</name>
+  <name>gofa_libegm_samples</name>
   <version>0.0.0</version>
-  <description>The abb_egm_samples package, containing several C++ samples of how to use the abb_libegm C++ communication library to communicate with ABB robot controllers via Externally Guided Motion (EGM)</description>
+  <description>The gofa_libegm_samples package, containing several C++ samples of how to use the abb_libegm C++ communication library to communicate with ABB robot controllers via Externally Guided Motion (EGM)</description>
 
   <maintainer email="jon.tjerngren@se.abb.com">Jon Tjerngren</maintainer>
 

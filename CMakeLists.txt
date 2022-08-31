@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(abb_libegm_samples)
+project(gofa_libegm_samples)
 
 find_package(catkin REQUIRED COMPONENTS roscpp)
 find_package(abb_libegm REQUIRED)
