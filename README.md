@@ -26,10 +26,14 @@ and built with [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/inde
 ### 1. Robotstuidio and ABB controller setup on WINDOWPC
 a. access the controller in Robotstudio
 - add controller to Robotstudio
+
     ![Robotstudio1](docs/image/rs_1addcontroller.png)
+
     then click "log in as default user".
 - request for access
+
     ![Robotstudio2](docs/image/rs_2access.png)
+    
 and confirm on the teach pendant
 
 b. change RAPID file
