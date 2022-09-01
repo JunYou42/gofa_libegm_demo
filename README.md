@@ -2,10 +2,10 @@
 
 ## Description
 This ROS package provides some examples of controlling the robot GoFa via Externally Guided Motion (EGM). So far it includes following examples:
-- a1_joint_trajectory_node
-- a2_pose_trajectory_node
-- c1_joint_controller_node
-- c2_pose_controller_node
+- src/a1_joint_trajectory_node.cpp
+- src/a2_pose_trajectory_node.cpp
+- src/c1_joint_controller_node.cpp
+- src/c2_pose_controller_node.cpp
 
 > The original sample codes can be found in [this issue](https://github.com/ros-industrial/abb_libegm/issues/18). 
 
@@ -33,7 +33,7 @@ a. access the controller in Robotstudio
 - request for access
 
     ![Robotstudio2](docs/image/rs_2access.png)
-    
+
 and confirm on the teach pendant
 
 b. change RAPID file
@@ -51,9 +51,9 @@ c. click restart to make sure all the changes have been updated
 
 a. Clone the repoistary to your local computer and build the package
 ```
-mkdir catkin_ws/src
+mkdir -p catkin_ws/src
 cd catkin_ws/src
-git clone xxx
+git clone git@gitlab.lrz.de:jun.you/gofa_libegm_samples.git
 cd ..
 catkin build
 source devel/setup.bash
