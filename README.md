@@ -23,17 +23,28 @@ and built with [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/inde
 
 ## Usage
 
-### 1. Robotstuidio and ABB controller setup
+### 1. Robotstuidio and ABB controller setup on WINDOWPC
 a. access the controller in Robotstudio
-![Robotstudio](image.jpg)
+- add controller to Robotstudio
+    ![Robotstudio1](docs/image/rs_1addcontroller.png)
+    then click "log in as default user".
+- request for access
+    ![Robotstudio2](docs/image/rs_2access.png)
+and confirm on the teach pendant
 
 b. change RAPID file
-- for joint space, use main_t1() as the main function
-    ![main_t1](image.jpg)
-- for cartesain space, switch to main_t2()  
-    ![main_t2](image.jpg)
 
-### 2. ROS package usage
+Go to controller -> configuration -> controller -> task, and double click the T_ROB1 task to open the configuration like this
+    ![main](docs/image/rs_3main.png)
+- for joint space, use main_t1() as the main function
+- for cartesain space, switch to main_t2()  
+
+c. click restart to make sure all the changes have been updated 
+
+### 2. ROS package usage on ROSPC
+> First of all, make sure the ROSPC and Robotstudio are running under the same network.
+![ros ip configuratin](docs/image/ros_ipconfig.png)
+
 a. Clone the repoistary to your local computer and build the package
 ```
 mkdir catkin_ws/src
