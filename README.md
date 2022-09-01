@@ -7,6 +7,8 @@ This ROS package provides some examples of controlling the robot GoFa via Extern
 - src/c1_joint_controller_node.cpp
 - src/c2_pose_controller_node.cpp
 
+![egm](docs/image/egm_sketch.png)
+
 > The original sample codes can be found in [this issue](https://github.com/ros-industrial/abb_libegm/issues/18). 
 
 > For more information regarding **abb_libegm**, click [here](https://github.com/ros-industrial/abb_libegm).
@@ -34,11 +36,13 @@ a. access the controller in Robotstudio
 
     ![Robotstudio2](docs/image/rs_2access.png)
 
-and confirm on the teach pendant
+and confirm on the FlexPendant.
 
 b. change RAPID file
 
-Go to controller -> configuration -> controller -> task, and double click the T_ROB1 task to open the configuration like this
+As shown in the above, to enable EGM, there should be a corresponding RAPID file running in the control box at the same time. The EGM communication sessions are started and stoped by RAPID instructions. To make sure the control box gets correct signals, the RAPID file needs to be inspected before running.
+
+Go to *controller -> configuration -> controller -> task*, and double click the T_ROB1 task to open the configuration like this
     ![main](docs/image/rs_3main.png)
 - for joint space, use main_t1() as the main function
 - for cartesain space, switch to main_t2()  
