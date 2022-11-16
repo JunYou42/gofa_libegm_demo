@@ -13,6 +13,8 @@ This ROS package provides some examples of controlling the robot GoFa via Extern
 
 > For more information regarding **abb_libegm**, click [here](https://github.com/ros-industrial/abb_libegm).
 
+> For building the package without ROS, check the branch "cmake-branch", which provide a sample of how to call the functions in abb-libegm library. To check the plain cmake library of abb-libegm, click [here](https://github.com/jontje/abb_libegm/tree/plain_cmake_draft).
+
 
 ## Prerequisite
 This package is tested with:
