@@ -9,7 +9,7 @@ This ROS package provides some examples of controlling the robot GoFa via Extern
 
 ![egm](docs/image/egm_sketch.png)
 
-> The original sample codes can be found in [this issue](https://github.com/ros-industrial/abb_libegm/issues/18). 
+> The original codes can be found in [this issue](https://github.com/ros-industrial/abb_libegm/issues/18). 
 
 > For more information regarding **abb_libegm**, click [here](https://github.com/ros-industrial/abb_libegm).
 
